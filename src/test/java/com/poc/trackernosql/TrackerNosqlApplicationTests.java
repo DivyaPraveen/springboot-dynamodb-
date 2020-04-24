@@ -32,5 +32,6 @@ class TrackerNosqlApplicationTests {
 
 		List<Tracker> trackers = repository.findByStatus("Success");
 
+		//Assert tracker has value
 	}
 }
